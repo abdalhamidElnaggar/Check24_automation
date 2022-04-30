@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-05-01T00:00:39 EET" name="All Test Suite" finished-at="2022-05-01T00:01:04 EET" duration-ms="24437">
+    <groups>
+    </groups>
+    <test started-at="2022-05-01T00:00:39 EET" name="Check24" finished-at="2022-05-01T00:01:04 EET" duration-ms="24437">
+      <class name="UI_Tests.FormTests">
+        <test-method is-config="true" signature="setup(org.testng.ITestContext)[pri:0, instance:UI_Tests.FormTests@2accdbb5]" started-at="2022-05-01T00:00:40 EET" name="setup" finished-at="2022-05-01T00:00:49 EET" duration-ms="9214" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1aa59698]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_form_page()[pri:0, instance:UI_Tests.FormTests@2accdbb5]" started-at="2022-05-01T00:00:49 EET" name="test_form_page" finished-at="2022-05-01T00:00:58 EET" duration-ms="9714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_form_page -->
+        <test-method is-config="true" signature="close()[pri:0, instance:UI_Tests.FormTests@2accdbb5]" started-at="2022-05-01T00:00:59 EET" name="close" finished-at="2022-05-01T00:01:00 EET" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- UI_Tests.FormTests -->
+      <class name="RestAPI.RestAPIsTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:RestAPI.RestAPIsTests@34f5090e]" started-at="2022-05-01T00:01:00 EET" name="setup" finished-at="2022-05-01T00:01:00 EET" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkNotFound()[pri:1, instance:RestAPI.RestAPIsTests@34f5090e]" started-at="2022-05-01T00:01:00 EET" name="checkNotFound" finished-at="2022-05-01T00:01:03 EET" duration-ms="3009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNotFound -->
+        <test-method signature="checkNoContent()[pri:2, instance:RestAPI.RestAPIsTests@34f5090e]" started-at="2022-05-01T00:01:03 EET" name="checkNoContent" finished-at="2022-05-01T00:01:03 EET" duration-ms="581" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkNoContent -->
+        <test-method signature="checkValidContent()[pri:2, instance:RestAPI.RestAPIsTests@34f5090e]" started-at="2022-05-01T00:01:03 EET" name="checkValidContent" finished-at="2022-05-01T00:01:04 EET" duration-ms="747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkValidContent -->
+      </class> <!-- RestAPI.RestAPIsTests -->
+    </test> <!-- Check24 -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

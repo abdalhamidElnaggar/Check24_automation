@@ -21,6 +21,7 @@ A list of technologies used within the project:
 * validate on specific cookie existence 
 * validate on error messages existence when users leave the form empty
 * validate that the user is redirected to a new form with no error after adding all required data
+* all tests are in one flow as requested but can be broke down to multiple atmoic tests if needed
 
 
 ## RestAPIs endpoints tests
